@@ -1,2 +1,2 @@
-# Carcassonne-html
+# Carcassonne
 Board/card game
