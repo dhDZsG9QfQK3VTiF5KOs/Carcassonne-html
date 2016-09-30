@@ -2,5 +2,9 @@
 <h1>Carcassonne</h1>
 <table id="tiles"></table>
 <script>
-	document.getElementById("tiles").appendChild(new HTMLTableCellElement("test"));
+	row = new HTMLTableRowElement();
+	cell = new HTMLTableCellElement();
+	cell.innerText = "test";
+	row.appendChild(cell);
+	document.getElementById("tiles").appendChild(row);
 </script>
