@@ -2,8 +2,8 @@
 <h1>Carcassonne</h1>
 <table id="tiles"></table>
 <script>
-	row = new HTMLTableRowElement();
-	cell = new HTMLTableCellElement();
+	row = document.createElement("tr");
+	cell = document.createElement("td");
 	cell.innerText = "test";
 	row.appendChild(cell);
 	document.getElementById("tiles").appendChild(row);
